@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./layout.module.css";
 
 const MainLayout = ({ children }: { children: React.ReactNode }) => {
@@ -5,9 +6,12 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
     <>
       <header className={styles.header}>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li>
+            <Link href="/">Home</Link>
+          </li>
+          <li>
+            <Link href="/about">About</Link>
+          </li>
         </ul>
       </header>
       <main>{children}</main>
