@@ -7,6 +7,7 @@ export default function Home() {
         Dedun is <strong>your</strong> shopping assistant
       </h1>
       <p>Embrace it</p>
+      <p>By Marco Maza</p>
     </section>
   );
 }
