@@ -22,7 +22,7 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
       </header>
       <main>{children}</main>
       <footer>
-        <p>Dedun</p>
+        <p>Made with love by Marco Maza</p>
       </footer>
     </>
   );
